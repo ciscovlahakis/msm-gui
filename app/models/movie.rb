@@ -13,4 +13,5 @@
 #  director_id :integer
 #
 class Movie < ApplicationRecord
+  belongs_to :director
 end
